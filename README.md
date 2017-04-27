@@ -7,7 +7,7 @@ Assign points to the submissions based on the following:
 
 1 point - The parallel version produces the correct output (299999995) all the time. This requires a lock (mutex) variable. The sample parallel.c implementation is included in this repository. 
 
-2 points - 1 point for the two answers in the answers.txt file:
+2 points - 1 point for each of the two answers in the answers.txt file:
 	
 	1) Question: Why do you get different outputs? 
 		Answer: Because multiple threads update an unprotected global variable concurrently.
